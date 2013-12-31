@@ -1,7 +1,8 @@
 {
-  "name": "Sync",
+  "name": "sync",
   "description": "Syncronization with generators",
-  "version": "1.0",
+  "version": "0.1.0",
+  "repository": "git@github.com:apodgorny/sync.git",
   "author": {
     "name": "Lex Podgorny",
     "email": "alexander.podgorny@gmail.com"

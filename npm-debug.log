@@ -1,0 +1,128 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.2.21
+3 info using node@v0.11.2
+4 verbose publish [ '.' ]
+5 verbose read json /Users/lexpodgorny/Desktop/nodejs-sync/package.json
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/lexpodgorny/.npm/3a52ce78-.lock
+11 verbose read json package.json
+12 verbose tar pack [ '/var/folders/5_/0l7494gx289875yqjfq54twh0000gn/T/npm-12063/1388465933102-0.6513837124221027/tmp.tgz',
+12 verbose tar pack   '.' ]
+13 verbose tarball /var/folders/5_/0l7494gx289875yqjfq54twh0000gn/T/npm-12063/1388465933102-0.6513837124221027/tmp.tgz
+14 verbose folder .
+15 info prepublish Sync@0.1.0
+16 silly lockFile 3a52ce78- .
+17 verbose lock . /Users/lexpodgorny/.npm/3a52ce78-.lock
+18 silly lockFile fdda9b0a-33102-0-6513837124221027-tmp-tgz /var/folders/5_/0l7494gx289875yqjfq54twh0000gn/T/npm-12063/1388465933102-0.6513837124221027/tmp.tgz
+19 verbose lock /var/folders/5_/0l7494gx289875yqjfq54twh0000gn/T/npm-12063/1388465933102-0.6513837124221027/tmp.tgz /Users/lexpodgorny/.npm/fdda9b0a-33102-0-6513837124221027-tmp-tgz.lock
+20 silly lockFile 3a52ce78- .
+21 silly lockFile 3a52ce78- .
+22 silly lockFile fdda9b0a-33102-0-6513837124221027-tmp-tgz /var/folders/5_/0l7494gx289875yqjfq54twh0000gn/T/npm-12063/1388465933102-0.6513837124221027/tmp.tgz
+23 silly lockFile fdda9b0a-33102-0-6513837124221027-tmp-tgz /var/folders/5_/0l7494gx289875yqjfq54twh0000gn/T/npm-12063/1388465933102-0.6513837124221027/tmp.tgz
+24 verbose tar unpack /var/folders/5_/0l7494gx289875yqjfq54twh0000gn/T/npm-12063/1388465933102-0.6513837124221027/tmp.tgz
+25 silly lockFile be1d1318-33102-0-6513837124221027-package /var/folders/5_/0l7494gx289875yqjfq54twh0000gn/T/npm-12063/1388465933102-0.6513837124221027/package
+26 verbose lock /var/folders/5_/0l7494gx289875yqjfq54twh0000gn/T/npm-12063/1388465933102-0.6513837124221027/package /Users/lexpodgorny/.npm/be1d1318-33102-0-6513837124221027-package.lock
+27 silly lockFile fdda9b0a-33102-0-6513837124221027-tmp-tgz /var/folders/5_/0l7494gx289875yqjfq54twh0000gn/T/npm-12063/1388465933102-0.6513837124221027/tmp.tgz
+28 verbose lock /var/folders/5_/0l7494gx289875yqjfq54twh0000gn/T/npm-12063/1388465933102-0.6513837124221027/tmp.tgz /Users/lexpodgorny/.npm/fdda9b0a-33102-0-6513837124221027-tmp-tgz.lock
+29 silly gunzTarPerm modes [ '755', '644' ]
+30 silly gunzTarPerm extractEntry package.json
+31 silly gunzTarPerm extractEntry README.md
+32 silly gunzTarPerm extractEntry module.sync.js
+33 verbose read json /var/folders/5_/0l7494gx289875yqjfq54twh0000gn/T/npm-12063/1388465933102-0.6513837124221027/package/package.json
+34 silly lockFile be1d1318-33102-0-6513837124221027-package /var/folders/5_/0l7494gx289875yqjfq54twh0000gn/T/npm-12063/1388465933102-0.6513837124221027/package
+35 silly lockFile be1d1318-33102-0-6513837124221027-package /var/folders/5_/0l7494gx289875yqjfq54twh0000gn/T/npm-12063/1388465933102-0.6513837124221027/package
+36 silly lockFile fdda9b0a-33102-0-6513837124221027-tmp-tgz /var/folders/5_/0l7494gx289875yqjfq54twh0000gn/T/npm-12063/1388465933102-0.6513837124221027/tmp.tgz
+37 silly lockFile fdda9b0a-33102-0-6513837124221027-tmp-tgz /var/folders/5_/0l7494gx289875yqjfq54twh0000gn/T/npm-12063/1388465933102-0.6513837124221027/tmp.tgz
+38 verbose from cache /var/folders/5_/0l7494gx289875yqjfq54twh0000gn/T/npm-12063/1388465933102-0.6513837124221027/package/package.json
+39 verbose tar pack [ '/Users/lexpodgorny/.npm/Sync/0.1.0/package.tgz',
+39 verbose tar pack   '/var/folders/5_/0l7494gx289875yqjfq54twh0000gn/T/npm-12063/1388465933102-0.6513837124221027/package' ]
+40 verbose tarball /Users/lexpodgorny/.npm/Sync/0.1.0/package.tgz
+41 verbose folder /var/folders/5_/0l7494gx289875yqjfq54twh0000gn/T/npm-12063/1388465933102-0.6513837124221027/package
+42 silly lockFile be1d1318-33102-0-6513837124221027-package /var/folders/5_/0l7494gx289875yqjfq54twh0000gn/T/npm-12063/1388465933102-0.6513837124221027/package
+43 verbose lock /var/folders/5_/0l7494gx289875yqjfq54twh0000gn/T/npm-12063/1388465933102-0.6513837124221027/package /Users/lexpodgorny/.npm/be1d1318-33102-0-6513837124221027-package.lock
+44 silly lockFile 48237c23-gorny-npm-Sync-0-1-0-package-tgz /Users/lexpodgorny/.npm/Sync/0.1.0/package.tgz
+45 verbose lock /Users/lexpodgorny/.npm/Sync/0.1.0/package.tgz /Users/lexpodgorny/.npm/48237c23-gorny-npm-Sync-0-1-0-package-tgz.lock
+46 silly lockFile be1d1318-33102-0-6513837124221027-package /var/folders/5_/0l7494gx289875yqjfq54twh0000gn/T/npm-12063/1388465933102-0.6513837124221027/package
+47 silly lockFile be1d1318-33102-0-6513837124221027-package /var/folders/5_/0l7494gx289875yqjfq54twh0000gn/T/npm-12063/1388465933102-0.6513837124221027/package
+48 silly lockFile 48237c23-gorny-npm-Sync-0-1-0-package-tgz /Users/lexpodgorny/.npm/Sync/0.1.0/package.tgz
+49 silly lockFile 48237c23-gorny-npm-Sync-0-1-0-package-tgz /Users/lexpodgorny/.npm/Sync/0.1.0/package.tgz
+50 silly lockFile c99548bb-xpodgorny-npm-Sync-0-1-0-package /Users/lexpodgorny/.npm/Sync/0.1.0/package
+51 verbose lock /Users/lexpodgorny/.npm/Sync/0.1.0/package /Users/lexpodgorny/.npm/c99548bb-xpodgorny-npm-Sync-0-1-0-package.lock
+52 silly lockFile c99548bb-xpodgorny-npm-Sync-0-1-0-package /Users/lexpodgorny/.npm/Sync/0.1.0/package
+53 silly lockFile c99548bb-xpodgorny-npm-Sync-0-1-0-package /Users/lexpodgorny/.npm/Sync/0.1.0/package
+54 verbose tar unpack /Users/lexpodgorny/.npm/Sync/0.1.0/package.tgz
+55 silly lockFile c99548bb-xpodgorny-npm-Sync-0-1-0-package /Users/lexpodgorny/.npm/Sync/0.1.0/package
+56 verbose lock /Users/lexpodgorny/.npm/Sync/0.1.0/package /Users/lexpodgorny/.npm/c99548bb-xpodgorny-npm-Sync-0-1-0-package.lock
+57 silly lockFile 48237c23-gorny-npm-Sync-0-1-0-package-tgz /Users/lexpodgorny/.npm/Sync/0.1.0/package.tgz
+58 verbose lock /Users/lexpodgorny/.npm/Sync/0.1.0/package.tgz /Users/lexpodgorny/.npm/48237c23-gorny-npm-Sync-0-1-0-package-tgz.lock
+59 silly gunzTarPerm modes [ '755', '644' ]
+60 silly gunzTarPerm extractEntry package.json
+61 silly gunzTarPerm extractEntry README.md
+62 silly gunzTarPerm extractEntry module.sync.js
+63 verbose read json /Users/lexpodgorny/.npm/Sync/0.1.0/package/package.json
+64 silly lockFile c99548bb-xpodgorny-npm-Sync-0-1-0-package /Users/lexpodgorny/.npm/Sync/0.1.0/package
+65 silly lockFile c99548bb-xpodgorny-npm-Sync-0-1-0-package /Users/lexpodgorny/.npm/Sync/0.1.0/package
+66 silly lockFile 48237c23-gorny-npm-Sync-0-1-0-package-tgz /Users/lexpodgorny/.npm/Sync/0.1.0/package.tgz
+67 silly lockFile 48237c23-gorny-npm-Sync-0-1-0-package-tgz /Users/lexpodgorny/.npm/Sync/0.1.0/package.tgz
+68 verbose from cache /Users/lexpodgorny/.npm/Sync/0.1.0/package/package.json
+69 verbose chmod /Users/lexpodgorny/.npm/Sync/0.1.0/package.tgz 644
+70 verbose chown /Users/lexpodgorny/.npm/Sync/0.1.0/package.tgz [ 501, 20 ]
+71 silly lockFile 3a52ce78- .
+72 silly publish { name: 'Sync',
+72 silly publish   description: 'Syncronization with generators',
+72 silly publish   version: '0.1.0',
+72 silly publish   repository: { type: 'git', url: 'git@github.com:apodgorny/sync.git' },
+72 silly publish   author: { name: 'Lex Podgorny', email: 'alexander.podgorny@gmail.com' },
+72 silly publish   engines: { node: '>= 0.11' },
+72 silly publish   main: './module.sync.js',
+72 silly publish   readme: 'nodejs-sync\n===========\n\nSynchronizing async calls in nodejs (generators + yield)\n',
+72 silly publish   readmeFilename: 'README.md',
+72 silly publish   bugs: { url: 'https://github.com/apodgorny/sync/issues' },
+72 silly publish   _id: 'Sync@0.1.0',
+72 silly publish   dist: { shasum: 'add48ec065575f081ac5bc4cc452fcb5f9d92ed6' },
+72 silly publish   _from: '.' }
+73 verbose url raw Sync
+74 verbose url resolving [ 'https://registry.npmjs.org/', './Sync' ]
+75 verbose url resolved https://registry.npmjs.org/Sync
+76 info trying registry request attempt 1 at 20:59:53
+77 http PUT https://registry.npmjs.org/Sync
+78 http 403 https://registry.npmjs.org/Sync
+79 info trying registry request attempt 1 at 20:59:55
+80 http PUT https://registry.npmjs.org/Sync
+81 http 403 https://registry.npmjs.org/Sync
+82 error publish Failed PUT response 403
+83 error Error: forbidden New packages must have all-lowercase names: Sync
+83 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:269:14)
+83 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/index.js:148:22)
+83 error     at Request.EventEmitter.emit (events.js:100:17)
+83 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/index.js:876:14)
+83 error     at Request.EventEmitter.emit (events.js:119:20)
+83 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/index.js:827:12)
+83 error     at IncomingMessage.EventEmitter.emit (events.js:119:20)
+83 error     at _stream_readable.js:894:16
+83 error     at process._tickCallback (node.js:415:13)
+84 error If you need help, you may report this log at:
+84 error     <http://github.com/isaacs/npm/issues>
+84 error or email it to:
+84 error     <npm-@googlegroups.com>
+85 error System Darwin 11.4.2
+86 error command "node" "/usr/local/bin/npm" "publish"
+87 error cwd /Users/lexpodgorny/Desktop/nodejs-sync
+88 error node -v v0.11.2
+89 error npm -v 1.2.21
+90 verbose exit [ 1, true ]
