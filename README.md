@@ -24,6 +24,8 @@ into this:
 ```
   
 It also does this for every and any async method with callback specified as last parameter.
+
+Blog post: <a href="http://dot-js.blogspot.com/2013/12/nodejs-async-to-sync-using-javascript.html">http://dot-js.blogspot.com/2013/12/nodejs-async-to-sync-using-javascript.html</a>
 Enjoy!
 
   
