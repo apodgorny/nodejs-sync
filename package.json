@@ -1,8 +1,8 @@
 {
-  "name": "sync",
+  "name": "synchronode",
   "description": "Syncronization with generators",
-  "version": "0.1.0",
-  "repository": "git@github.com:apodgorny/sync.git",
+  "version": "0.1.1",
+  "repository": "git@github.com:apodgorny/synchronode.git",
   "author": {
     "name": "Lex Podgorny",
     "email": "alexander.podgorny@gmail.com"
