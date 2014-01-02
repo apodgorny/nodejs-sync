@@ -14,10 +14,10 @@ module.exports = function(ff) {
 					oResult.value(next);            // fulfill, we do this by calling `value` as a function
 				}                                   // and passing it a callback that receives oError, oAnswer for which we'll just use `next()`
 			}
-		}
+		};
 		
 	next();                                         // Kick off the async loop
-}
+};
 
 Function.prototype.sync = function() {
 	var o = this,
@@ -26,5 +26,5 @@ Function.prototype.sync = function() {
 	return function(fCallback) {
 		a[a.length ++] = fCallback;
 		return o.apply(o, a);
-	}
-}
+	};
+};
